@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        Tribute Page !!!
-    </div>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="./tribute_page.css" type="text/css">
+    <title>Tribute Page to Henry Dunant</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Henry Dunant</h1>
+      <h3>The very first Nobel Peace Prize winner</h3>
+    </header>
+    <main id="main">
+      <section class="container">
+        <figure id="img-div">
+          <img
+            id="image"
+            src="./images/henrydunant.jpg"
+            alt="A drawing of Henry Dunant with an early symbol of the Red Cross, for which he is the co-founder.">
+            <a href="https://www.nobelprize.org/prizes/peace/1901/dunant/facts/" target="blank"></a>          
+          <figcaption id="img-caption">A drawing of Henry Dunant with an early symbol of the Red Cross, for which he is the co-founder.</figcaption>
+        </figure>
+      </section>
+      <hr>
+        <h3 id="tribute-info">More About Henry Dunant</h3>
+          <ul class="timeline-grid">
+            <div class="timeline-list">
+              <li><strong>1828</strong> - Born May 8 in Geneva, Switzerland <br>(we share a birthday!)</li>
+              <li><strong>1854</strong> - Published the book, <br><em>An Account of the Regency in Tunis</em></li>
+              <li><strong>1863</strong> - The International Committee of the Red Cross is established</li>
+              <li><strong>1864</strong> - The Geneva Convention is signed into an international treaty + the Red Cross emblem is born</li>
+            </div>
+            <hr>
+            <div class="timeline-list">
+              <li><strong>1867-1875</strong> - Bankruptcy and banishment</li>
+              <li><strong>1875-1895</strong> - Another of his low points: <br>Living in solitude and eventually settling in hospice</li>
+              <li><strong>1901</strong> - Awarded the very first Nobel Peace Prize alongside Frédéric Passy</li>
+              <li><strong>1903</strong> - Also awarded an honorary doctorate from the University of Heidelberg, among other awards</li>
+              <li><strong>1910</strong> - Died October 30 in Heiden, Switzerland</li>
+            </div>
+          </ul>
+      <hr>
+      <footer class="footer">
+        <p class="quote">"Our real enemy is not the neighbouring nation; it's hunger, cold, poverty, ignorance, routine, superstition and predjudice."</p>
+        <p class="speaker">International Committee of the Red Cross Founder, Henry Dunant</p>
+        <a id="tribute-link" href="https://www.nobelprize.org/prizes/peace/1901/dunant/facts/" target="_blank">For more information about Henry Dunant, read it here!</a>
+      </footer>
+     </main>
+    <script src="tribute_page.js"></script>
+  </body>
 </html>
